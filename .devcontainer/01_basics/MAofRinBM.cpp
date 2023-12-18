@@ -32,7 +32,7 @@ vector<int> NSR(int arr[], int n)
                s.pop();
           }
           if (s.empty())
-               v[i] = 4;
+               v[i] = n;
           else
                v[i] = s.top().second;
 
