@@ -36,7 +36,7 @@ void Items::displaySum(void)
 void Items::remove(void)
 {
     int a;
-    cout << " Enter Item code : ";
+    cout << " Enter Item code that you want to remove : ";
     cin >> a;
     for (int i = 0; i < count; i++)
     {
@@ -46,7 +46,7 @@ void Items::remove(void)
 }
 void Items::displayItem(void)
 {
-    cout << "\ncode Price\n";
+    cout << "\ncode  Price\n";
     for (int i = 0; i < count; i++)
     {
         cout << "\n"
