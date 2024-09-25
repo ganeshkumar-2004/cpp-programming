@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 int knapsack(int w, int n, int wt[], int val[])
 {
