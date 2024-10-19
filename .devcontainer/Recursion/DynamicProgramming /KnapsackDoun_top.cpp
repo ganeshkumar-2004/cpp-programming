@@ -38,7 +38,7 @@ int Knapsack(int w, int n, int wt[], int val[])
         {
             cin >> val[i];
         }
-        cout << "The maximum profit of the knapsack: " << Knapsack(w, n, wt, val);
+        cout << "The maximum profit of the knapsack: " << Knapsack(w, n, wt, val)<<endl;;
 
         return 0;
     }
