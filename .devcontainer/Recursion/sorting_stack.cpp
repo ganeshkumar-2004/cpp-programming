@@ -39,7 +39,7 @@ int main(){
 
     }
     sort(s);
-    cout<<"Sorted stack is : "<<" ";
+    cout<<" Your Sorted stack is : "<<" ";
     for (int i = 0; i < n; i++)
     {
         cout<<s.top()<<" ";
