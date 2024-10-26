@@ -5,7 +5,7 @@ void solve(stack<int> &s, int k)
 {
     if (k == 1)
     {
-        s.top();
+        s.pop();
         return;
     }
     else
