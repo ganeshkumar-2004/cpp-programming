@@ -11,7 +11,6 @@ int main()
     {
         if (n % i == 0)
             break;
-        i++;
     }
     if (i == s + 1)
         cout << "The number is prime " << endl;
