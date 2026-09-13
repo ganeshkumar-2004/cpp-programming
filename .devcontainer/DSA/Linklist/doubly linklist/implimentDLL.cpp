@@ -212,6 +212,7 @@ int main()
     D1.insertStart(8);
     D1.insertStart(10);
     D1.insertStart(85);
+    D1.insertStart(96);
     D1.insertLast(47);
     node *temp = D1.search(10);
     D1.insertAfter(temp, 18);
