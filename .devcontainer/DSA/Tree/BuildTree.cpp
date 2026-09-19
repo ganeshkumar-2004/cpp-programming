@@ -75,6 +75,16 @@ public:
         postorder(root->right);
         cout << root->item << " ";
     }
+
+    int height(node * root)
+    {
+        if(root == nullptr)
+            return 0;
+        int lh = height(root->left);
+        int rh = height(root->right);
+        int h  = max(lh, rh)+1; 
+        return h ;
+    }
     void deleteTree(node *current)
     {
         if (current == nullptr)
@@ -107,5 +117,7 @@ int main()
     cout << endl;
     cout << "postorder traversal : " << endl;
     tree.postorder(R);
+    cout<<endl;
+    cout<<tree.height(R);
     return 0;
 }
